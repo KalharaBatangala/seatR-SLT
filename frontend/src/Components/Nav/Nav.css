@@ -1,0 +1,55 @@
+/* Nav.css */
+
+.navbarx {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  height: 100vh; /* Full height sidebar */
+  background-color: #2c3e50; /* Sidebar background color */
+  width: 250px; /* Sidebar width */
+  position: fixed; /* Sidebar stays in place */
+  top: 0;
+  left: 0;
+}
+
+.linkx {
+  width: 100%; /* Make the link take full width */
+  text-decoration: none; /* Remove underline from links */
+  margin-bottom: 20px; /* Spacing between buttons */
+}
+
+.nav-buttonx {
+  width: 100%; /* Full width for buttons */
+  padding: 15px 20px;
+  font-size: 16px;
+  text-align: left; /* Align text to the left */
+  color: #fff;
+  background-color: #34495e; /* Button background color */
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.2s;
+  cursor: pointer;
+}
+
+.nav-buttonx:hover {
+  background-color: #1abc9c; /* Color change on hover */
+  transform: translateX(5px); /* Slide effect on hover */
+}
+
+.nav-buttonx:active {
+  transform: translateX(2px); /* Slight push on click */
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    width: 100%; /* Full width sidebar on mobile */
+    height: auto;
+    position: relative; /* Remove fixed positioning on mobile */
+  }
+
+  .nav-button {
+    padding: 10px 15px;
+  }
+}

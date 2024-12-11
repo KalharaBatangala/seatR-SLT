@@ -1,0 +1,49 @@
+.complaints-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.complaints-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.complaint-card {
+    background-color: #c8c9ba;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.complaint-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(77, 19, 131, 0.89);
+}
+
+.complaint-card h3 {
+    margin-bottom: 10px;
+    color: #08386b;
+}
+
+.complaint-card p {
+    margin: 8px 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.complaint-card strong {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .complaint-card {
+        padding: 15px;
+    }
+}

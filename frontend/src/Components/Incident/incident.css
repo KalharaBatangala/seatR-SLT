@@ -1,0 +1,80 @@
+/* Ensure the main container leaves space for sidebar */
+.incident-container {
+  margin-left: 260px;
+  
+  padding: 10px;
+  background-color: #f9f9f9;
+ 
+}
+
+/* Add table wrapper for responsiveness */
+.incident-table-wrapper {
+  
+  width: 100%;
+  
+  overflow-x: auto; /* Add scroll if the table is too wide */
+}
+
+/* Style the table */
+.incident-table {
+  margin-top:0px;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border: 1px solid #ddd; /* Table border */
+}
+
+.incident-table th, .incident-table td {
+  border: 1px solid #ddd; /* Border for table cells */
+  padding: 12px 15px; /* Padding for cells */
+  text-align: left; /* Align text to the left */
+}
+
+/* Header styling */
+.incident-table th {
+
+  background-color: #f2f2f2; /* Light background for headers */
+  color: #333; /* Darker text for headers */
+}
+
+/* Row hover effect */
+.incident-table tr:hover {
+  background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+/* Action buttons styling */
+.incident-button {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.update-button {
+  background-color: #4CAF50;
+  margin-right: 5px;
+}
+
+.update-button:hover {
+  background-color: #45a049;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+/* Responsive Design */
+@media (max-width: 800px) {
+  .incident-table-wrapper {
+    overflow-x: scroll;
+  }
+}

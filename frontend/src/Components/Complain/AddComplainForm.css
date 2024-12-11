@@ -1,0 +1,59 @@
+  /* Container styling */
+ 
+
+  .add-complain-content-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    margin-top: 100px; /* Add some margin around the content */
+    margin-bottom: 100px;
+
+}
+
+
+  .add-complain-container {
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.699);
+  }
+  
+  .add-complain-outer-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: auto; /* Makes the outer container take full viewport height */
+    background-color: #094669; /* Light grey background for the outer container */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(136, 133, 133, 0.788);
+  }
+
+.complain-submit-button {
+    
+    width:90%;
+    padding: 10px;
+    background-color: #080a6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Button hover effect */
+.complain-submit-button:hover {
+    background-color: #4055ca;
+}
+
+.make-complain{
+  text-align: center;
+  font-size: 24px;
+  font-style: bold;
+}
+.trComplain{
+  content-visibility: hidden;
+}

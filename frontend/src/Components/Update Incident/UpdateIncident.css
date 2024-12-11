@@ -1,0 +1,57 @@
+.update-incident-container{
+    display: flex;
+    margin-top: 20px; /* Push the content down below the fixed header */
+    margin-bottom: 60px;
+    min-height: auto;
+}
+
+.update-incident-topic{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal; /* You can keep or remove this if no specific style is needed */
+  font-weight: bold; /* Makes the text bold */
+  }
+
+  .update-incident-form {
+    width: 100%;
+    max-width: 600px;
+  margin: 0 auto;
+  background-image:linear-gradient(#ffffff,#7dd6ff); /* Light grey background for the outer container */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.932);
+  backdrop-filter: blur(10px); /* Adds a subtle blur effect */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    width: 350px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .employeeDetailsTopic{
+    text-align: center;
+    font-size: 24px;
+    font-style: normal; /* You can keep or remove this if no specific style is needed */
+    font-weight: bold; /* Makes the text bold */
+  }
+
+  .updateIncidentButton {
+    background-color: #120874;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }

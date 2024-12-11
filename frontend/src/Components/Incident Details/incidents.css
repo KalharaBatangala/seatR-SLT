@@ -1,0 +1,169 @@
+/* Ensure the main container leaves space for sidebar */
+.incident-container {
+  display: flex;
+  margin-top: 20px; /* Push the content down below the fixed header */
+  margin-bottom: 60px;
+  min-height: auto; /* This ensures the sidebar and content stretch to the height of the screen */
+}
+
+/* Add table wrapper for responsiveness */
+.incident-table-wrapper {
+  width: 100%;
+  overflow-x: auto; /* Add scroll if the table is too wide */
+  margin-top: 20px; /* Add some margin at the top */
+}
+
+/* Style the table */
+.incident-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  border: 1px solid #000000; /* Table border */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Table cell styling */
+.incident-table th,
+.incident-table td {
+  border: 1px solid #000000; /* Border for table cells */
+  padding: 12px 15px; /* Padding for cells */
+  text-align: left; /* Align text to the left */
+}
+
+/* Header styling */
+.incident-table th {
+  background-color: #7acadf; /* Dark green background for headers */
+  color: rgb(0, 0, 0); /* White text for headers */
+  font-weight: bold; /* Make header text bold */
+}
+
+/* Row hover effect */
+.incident-table tr:hover {
+  background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+/* Action buttons styling */
+.incident-button {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+/* Update button styling */
+.update-button {
+  background-color: #4CAF50; /* Green background */
+}
+
+.update-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Delete button styling */
+.delete-button {
+  background-color: #87080a; /* Green background */
+}
+
+.delete-button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+/* Add a margin to the add incident button */
+.add-Incident-button {
+  margin-top: 20px;
+  background-color: rgb(154, 208, 222);
+  border-radius: 5px;
+  padding: 10px 15px; /* Add padding for better clickability */
+  border: none;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+.add-Incident-button:hover {
+  background-color: rgb(130, 180, 200); /* Darker shade on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 800px) {
+  .incident-table-wrapper {
+    overflow-x: scroll;
+  }
+
+  /* Adjust button size for smaller screens */
+  .incident-button {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .add-Incident-button {
+    font-size: 12px;
+    padding: 8px 10px;
+    position:fixed;
+  }
+}
+
+
+.update-employee-icon {
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  font-size: 24px; /* Adjust size as needed */
+  color: #08386b; /* Change color as needed */
+  transition: color 0.3s; /* Add transition for hover effect */
+  padding-right: 10px;
+}
+
+.update-employee-icon:hover {
+  color: #0056b3; /* Change color on hover */
+}
+
+.delete-employee-icon {
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  font-size: 24px; /* Adjust size as needed */
+  color: #ee0c0c; /* Change color as needed */
+  transition: color 0.3s; /* Add transition for hover effect */
+}
+
+.delete-employee-icon:hover {
+  color: #dc3545; /* Change color on hover */
+}
+
+
+.search-container {
+  display: flex;                /* Flexbox for the search input and button */
+  align-items: center;          /* Ensure search bar and button are vertically centered */
+}
+
+.search-bar {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-btn {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.search-btn:hover {
+  background-color: #45a049;
+}
+
+.IncidentTopic{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal; /* You can keep or remove this if no specific style is needed */
+  font-weight: bold; /* Makes the text bold */
+}

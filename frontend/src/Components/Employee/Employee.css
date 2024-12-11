@@ -1,0 +1,74 @@
+/* Main content */
+.app-container {
+    display: flex;
+    margin-top: 60px; /* Push the content down below the fixed header */
+    margin-bottom: 60px;
+    min-height: auto; /* This ensures the sidebar and content stretch to the height of the screen */
+  }
+  
+  .content {
+    margin-left: 250px; /* Give space for the sidebar */
+    padding: 60px;
+    flex-grow: 1; /* Allow the content to take the remaining width */
+    background-image:linear-gradient(#9bbdf1,#ffffff );
+  }
+
+  body {
+    width:100%;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    height: 100vh; /* Set height to full viewport height */
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+  }
+
+
+  /* Container for the add employee button */
+.add-employee-container {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* Style for the add employee button */
+.add-employee-button {
+  background-color: #2b8af0;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-employee-button:hover {
+  background-color: #083668;
+}
+
+
+.download-employee-button {
+  background-color: #2b8af0;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  justify-content: right;
+}
+
+.download-employee-button:hover {
+  background-color: #083668;
+}
+
+.add-employee-search-container {
+  display: flex;          /* Use flexbox to align items */
+  gap: 20px;
+}
+
+.employeeDetailsTopic{
+  text-align: center;
+  font-size: 24px;
+  font-style: normal; /* You can keep or remove this if no specific style is needed */
+  font-weight: bold; /* Makes the text bold */
+}

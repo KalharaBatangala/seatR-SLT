@@ -1,0 +1,33 @@
+.app-container {
+    display: flex;
+    margin-top: 20px; /* Push the content down below the fixed header */
+    margin-bottom: 20px;
+    min-height: auto; /* This ensures the sidebar and content stretch to the height of the screen */
+  }
+  
+  .content {
+    margin-left: 10px; /* Give space for the sidebar */
+    padding: 25px;
+    flex-grow: 1; /* Allow the content to take the remaining width */
+    background-color: lightgrey;
+    overflow-x: auto;
+    border-radius: 15px; /* Rounded corners */
+  }
+
+  body {
+    width:100%;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    height: 100vh; /* Set height to full viewport height */
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+  }
+
+ 
+
+  .AllComplains_topic{
+    text-align: center;
+    font-size: 24px;
+    font-style: normal; /* You can keep or remove this if no specific style is needed */
+    font-weight: bold; /* Makes the text bold */
+  }

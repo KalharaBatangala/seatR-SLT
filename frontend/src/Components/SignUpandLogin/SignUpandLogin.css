@@ -1,0 +1,102 @@
+.signup-login-content-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    height: 600px; 
+    background-image: url('/src/Assets/bg322.png');
+    background-size: cover;
+    
+   
+    
+}
+  
+  .signup-login-container {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-image:linear-gradient(rgba(31, 14, 126, 0.808),rgba(99, 238, 111, 0.37));
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(19, 16, 32, 0.774);
+    justify-content: center;
+  }
+
+.signup-login-container input {
+    width: 240px;
+    padding: 10px;
+    margin: auto;
+    border: 2px solid #372ccc;
+    border-radius: 4px;
+    background-color: rgb(200, 246, 250);
+   
+}
+.signup-login-container input:hover {
+    border-color: #1a51e8; /* Change border color on hover */
+    box-shadow: 0 0 20px rgba(26, 115, 232, 0.5); /* Add glow effect */
+}
+
+.signup-login-container button {
+    width: 100%;
+    padding: 10px;
+   
+    background-color: #210d79;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    justify-content: center;
+}
+.signup-login-container button:hover {
+    background-color: #2d60eb;
+}
+
+.signup-login-container-login-link {
+    text-align: center;
+    margin-top: 15px;
+}
+.signup-login-container-login-link a {
+    color: #ffffff;
+    text-decoration: none;
+    
+   
+}
+.signup-login-container-login-link a:hover {
+    text-decoration: underline;
+   
+}
+
+.google-signin {
+    margin-top: 20px;
+}
+.google-signin button {
+    width: 100%;
+    padding: 8px;
+  
+    color: #c23131;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.google-signin button:hover {
+    background-color: #5c4541;
+}
+.google-signin img {
+    margin-right: 12px;
+    
+}
+
+.signInButton{
+    border-radius: 53px;
+}
+
+.LoginTopic{
+    color: white;
+    margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal; /* You can keep or remove this if no specific style is needed */
+  font-weight: bold; /* Makes the text bold */
+}
+
+.trLogin{
+    content-visibility: hidden;
+}

@@ -1,0 +1,55 @@
+.complain-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #0c0c0c; /* Add border to the table */
+  }
+  
+  .complain-table th,
+  .complain-table td {
+    border: 1px solid #0c0c0c;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .complain-table th {
+    background-color: #7acadf;
+  }
+  
+  .complain-table tr:nth-child() {
+    background-color: #ffffff;
+  }
+  
+  .complain-table tr:hover {
+    background-color: #ffffff;
+  }
+
+  /*Update button and delete button*/
+  .update-complain-btn {
+    background-color: #035806; /* Green */
+    color: white;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  
+  .update-complain-btn:hover{
+    opacity: 0.8;
+  }
+  
+
+  .update-complain-icon {
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    font-size: 24px; /* Adjust size as needed */
+    color: #08386b; /* Change color as needed */
+    transition: color 0.3s; /* Add transition for hover effect */
+  }
+  
+  .update-complain-icon:hover {
+    color: #0056b3; /* Change color on hover */
+  }
+  
+ 

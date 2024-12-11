@@ -1,0 +1,26 @@
+.search-container {
+    display: flex;                /* Flexbox for the search input and button */
+    align-items: center;          /* Ensure search bar and button are vertically centered */
+  }
+  
+  .search-bar {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .search-btn {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .search-btn:hover {
+    background-color: #45a049;
+  }

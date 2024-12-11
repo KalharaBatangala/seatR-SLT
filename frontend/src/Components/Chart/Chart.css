@@ -1,0 +1,26 @@
+/* Chart.css */
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-image:radial-gradient(circle, #9ee5f1, #ffffff); /* Light background color */
+    
+    padding-top: 60px;
+    
+    
+  }
+  
+  .chart {
+    
+    width: 100%; /* Adjust width as needed */
+    max-width: 800px; /* Maximum width */
+    margin: 20px 0; /* Margin around the chart */
+  }
+  
+  .loading {
+    font-size: 18px; /* Larger font size for loading text */
+    color: #666; /* Grey color */
+  }
+  
+ 

@@ -1,0 +1,66 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 550px;
+  background-image:linear-gradient(#ffffff,#7dd6ff);
+ 
+ 
+ background-repeat: repeat;
+
+  }
+  
+  .topic1{
+    margin-bottom: 70px;
+    font-size: 34px;
+    color: #010e11;
+    
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .home-button {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 80px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 4px rgba(50, 11, 243, 0.63); /* Add shadow */
+    background-color: white;
+  
+  }
+  
+  .home-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(48, 12, 248, 0.726);
+  }
+  
+  .button-icons {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin:40px 50px ;
+    
+  }
+  
+  .button-texts {
+    
+   align-items: center;
+    
+    font-size: 18px;
+    height: 30px;
+    
+    color: rgb(0, 0, 0);
+    margin-top: -23px;
+    text-align: center;
+  }
+  

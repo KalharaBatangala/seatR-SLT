@@ -1,0 +1,226 @@
+/* Sidebar styling */
+.sidebar {
+  width: 180px; /* Width of the sidebar */
+  background-image:linear-gradient(to top,#9ee5f1,#ffffff );/* Match with header and footer */ /* Fill remaining height after header and footer */
+  padding: 20px; /* Padding inside the sidebar */
+  top: 125px; /* Aligns it right below the header */
+  left: 0; /* Aligns to the left */
+  bottom: 60px; /* Aligns above the footer */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.918); /* Shadow for depth */
+  height: auto;
+  margin-left: 5px;
+  display: block;
+  align-items: center;
+  
+
+}
+  
+  /* Sidebar links styling */
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    justify-content: center;
+    align-items:flex-start;
+    
+   
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
+    
+  }
+  
+
+  /* Button styling */
+.nav-button {
+  
+  display: block; /* Block display to occupy full width */
+  color: rgb(0, 0, 0); /* Text color */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Font size */
+  padding: 15px 15px; /* Padding for clickable area */
+  border-radius: 5px; /* Rounded corners */
+  background-color: transparent; /* Default background */
+  border: 2px solid transparent; /* Default border */
+  font-weight: bold;
+}
+
+/* Hover effect for buttons */
+
+
+/* Active link styling */
+.nav-button.active {
+  background-color: #007bff; /* Different color for active button */
+  border-color: #007bff; /* Active border color */
+}
+
+
+
+
+
+
+
+.icon {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.item {
+  position: relative; /* Required for positioning the text */
+  /* Allows icon and text alignment */
+  align-items: center;
+  justify-content: center;
+  
+ 
+}
+
+
+
+.item:hover .icon {
+  transform: scale(1.5); /* Slightly enlarge the icon on hover */
+}
+
+.item:hover::after {
+  content: "View Complain";
+  display: block;
+  justify-content: center;
+  /* The text to display */
+  position: absolute;
+  top: 100%; /* Place it below the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -10px; /* Space between the icon and text */
+   /* Background color for the text */
+  color: #000000; /* Text color */
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  white-space: nowrap; /* Prevent wrapping */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10; /* Ensure it appears above other elements */
+}
+
+
+
+
+
+
+
+.item2 {
+  position: relative; /* Required for positioning the text */
+   /* Allows icon and text alignment */
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+.item2:hover .icon {
+  transform: scale(1.5); /* Slightly enlarge the icon on hover */
+}
+
+.item2:hover::after {
+  content: "Manage Employees";
+  display: block;
+  justify-content: center;
+  /* The text to display */
+  position: absolute;
+  top: 100%; /* Place it below the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -10px; /* Space between the icon and text */
+   /* Background color for the text */
+  color: #000000; /* Text color */
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  white-space: nowrap; /* Prevent wrapping */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10; /* Ensure it appears above other elements */
+
+
+}
+
+.item3 {
+  position: relative; /* Required for positioning the text */
+  /* Allows icon and text alignment */
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.item3:hover .icon {
+  transform: scale(1.5); /* Slightly enlarge the icon on hover */
+}
+
+.item3:hover::after {
+  content: "Work Assigned";
+  display: block;
+  justify-content: center;
+  /* The text to display */
+  position: absolute;
+  top: 100%; /* Place it below the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -10px; /* Space between the icon and text */
+   /* Background color for the text */
+  color: #000000; /* Text color */
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  white-space: nowrap; /* Prevent wrapping */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10; /* Ensure it appears above other elements */
+}
+
+
+
+.item4 {
+
+  position: relative; /* Required for positioning the text */
+ /* Allows icon and text alignment */
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.item4:hover .icon {
+  transform: scale(1.5); /* Slightly enlarge the icon on hover */
+}
+
+.item4:hover::after {
+  content: "Chart";
+  display: block;
+  justify-content: center;
+  /* The text to display */
+  position: absolute;
+  top: 100%; /* Place it below the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -10px; /* Space between the icon and text */
+   /* Background color for the text */
+  color: #000000; /* Text color */
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  white-space: nowrap; /* Prevent wrapping */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10; /* Ensure it appears above other elements */
+}
